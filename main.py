@@ -147,7 +147,7 @@ def get_title(url):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6843031809073086983/'
+    url = 'https://www.toutiao.com/i6844909451489575435/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("根据结构化自然语言规范自动生成精确预言")
+    generatePost("NL2Type：根据自然语言信息推断 JavaScript 函数类型")
