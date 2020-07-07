@@ -91,7 +91,7 @@ class postMaker(object):
             pic_w, pic_h = postPic.size
 
             # 将封面图粘贴到背景图的指定位置，第二个参数为坐标
-            backImg.paste(postPic, ((bg_w-pic_w)//2, int((bg_h-pic_h)/5.5)))
+            backImg.paste(postPic, ((bg_w-pic_w)//2, int((bg_h-pic_h)/4)))
 
             draw = ImageDraw.Draw(backImg)
             draw.ink = textColor.get(
@@ -147,7 +147,7 @@ def get_title(url):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6844909451489575435/'
+    url = 'https://www.toutiao.com/i6844911840250561027/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("NL2Type：根据自然语言信息推断 JavaScript 函数类型")
+    generatePost("检测并修复 Java 程序框架的非一致性")
