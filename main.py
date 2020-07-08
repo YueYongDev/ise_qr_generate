@@ -91,7 +91,7 @@ class postMaker(object):
             pic_w, pic_h = postPic.size
 
             # 将封面图粘贴到背景图的指定位置，第二个参数为坐标
-            backImg.paste(postPic, ((bg_w-pic_w)//2, int((bg_h-pic_h)/4)))
+            backImg.paste(postPic, ((bg_w-pic_w)//2, int((bg_h-pic_h)/5)))
 
             draw = ImageDraw.Draw(backImg)
             draw.ink = textColor.get(
@@ -147,7 +147,7 @@ def get_title(url):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6844911840250561027/'
+    url = 'https://www.toutiao.com/i6844914374520340995/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("检测并修复 Java 程序框架的非一致性")
+    generatePost("问答网站中基于模式的观点挖掘")
