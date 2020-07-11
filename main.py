@@ -91,7 +91,7 @@ class postMaker(object):
             pic_w, pic_h = postPic.size
 
             # 将封面图粘贴到背景图的指定位置，第二个参数为坐标
-            backImg.paste(postPic, ((bg_w-pic_w)//2, int((bg_h-pic_h)/5)))
+            backImg.paste(postPic, ((bg_w-pic_w)//2, int((bg_h-pic_h)/4)))
 
             draw = ImageDraw.Draw(backImg)
             draw.ink = textColor.get(
@@ -147,7 +147,7 @@ def get_title(url):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6844916734160273932/'
+    url = 'https://www.toutiao.com/i6847837501932077572/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("基于图的面向真实细粒度代码语义变更模式的挖掘")
+    generatePost("软件文档问题揭露")
