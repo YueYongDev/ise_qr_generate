@@ -147,7 +147,7 @@ def get_title(url):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6847672030348149256/'
+    url = 'https://www.toutiao.com/i6847674184240202244/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("code2vec 令牌嵌入的泛化能力评估")
+    generatePost("语义源代码检索的多模态注意力网络学习")
