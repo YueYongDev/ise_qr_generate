@@ -91,7 +91,7 @@ class postMaker(object):
             pic_w, pic_h = postPic.size
 
             # 将封面图粘贴到背景图的指定位置，第二个参数为坐标
-            backImg.paste(postPic, ((bg_w-pic_w)//2, int((bg_h-pic_h)/5)))
+            backImg.paste(postPic, ((bg_w-pic_w)//2, int((bg_h-pic_h)/4)))
 
             draw = ImageDraw.Draw(backImg)
             draw.ink = textColor.get(
@@ -147,7 +147,7 @@ def get_title(url):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6849298499431989764/'
+    url = 'https://www.toutiao.com/i6849694582444147207/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("DIRE: 一种用于反编译标识符命名的神经网络方法")
+    generatePost("通过在线学习进行模版引导的混合执行测试")
