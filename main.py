@@ -91,7 +91,7 @@ class postMaker(object):
             pic_w, pic_h = postPic.size
 
             # 将封面图粘贴到背景图的指定位置，第二个参数为坐标
-            backImg.paste(postPic, ((bg_w-pic_w)//2, int((bg_h-pic_h)/4)))
+            backImg.paste(postPic, ((bg_w-pic_w)//2, int((bg_h-pic_h)/5.5)))
 
             draw = ImageDraw.Draw(backImg)
             draw.ink = textColor.get(
@@ -147,7 +147,7 @@ def get_title(url):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6855258228054458887/'
+    url = 'https://www.toutiao.com/i6856311888121332236/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("自动生成补丁的测试等价性分析")
+    generatePost("智能交通系统中上下文感知的驾驶员行为检测系统")
