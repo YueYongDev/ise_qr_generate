@@ -147,7 +147,7 @@ def get_title(url):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6856761802156573188/'
+    url = 'https://www.toutiao.com/i6859353814009381379/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("改进的智慧交通系统出行时间预测算法")
+    generatePost("智能交通系统的移动众包：城市区域的实时导航")
