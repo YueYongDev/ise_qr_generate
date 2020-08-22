@@ -91,7 +91,7 @@ class postMaker(object):
             pic_w, pic_h = postPic.size
 
             # 将封面图粘贴到背景图的指定位置，第二个参数为坐标
-            backImg.paste(postPic, ((bg_w-pic_w)//2, int((bg_h-pic_h)/5.5)))
+            backImg.paste(postPic, ((bg_w-pic_w)//2, int((bg_h-pic_h)/4)))
 
             draw = ImageDraw.Draw(backImg)
             draw.ink = textColor.get(
@@ -147,7 +147,7 @@ def get_title(url):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6863057729104282126/'
+    url = 'https://www.toutiao.com/i6863060334513488398/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("基于GMDH模型的电池健康度估计")
+    generatePost("基于多传感器数据融合的车辆质量和道路坡度实时估计")
