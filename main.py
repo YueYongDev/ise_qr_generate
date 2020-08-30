@@ -147,7 +147,7 @@ def get_title(url):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6864559925633548807/'
+    url = 'https://www.toutiao.com/i6864560897889665549/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("人员流动的无尺度特性及其在智能交通系统中的应用")
+    generatePost("面向数据的智能交通系统")
