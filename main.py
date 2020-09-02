@@ -147,7 +147,7 @@ def get_title(url):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6866780924525150731/'
+    url = 'https://www.toutiao.com/i6867444967711703555/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("移动人群感知中多模态数据融合的两阶段空间映射方法")
+    generatePost("通过深度学习对脑电图和rs-fMRI进行多模态数据分析")
