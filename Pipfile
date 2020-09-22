@@ -1,9 +1,10 @@
 [[source]]
 name = "pypi"
-url = "https://mirrors.nju.edu.cn/pypi/web/simple"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
 verify_ssl = true
 
 [dev-packages]
+pylint = "*"
 
 [packages]
 requests = "*"

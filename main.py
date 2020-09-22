@@ -147,7 +147,7 @@ def get_title(url):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6873663528960524803/'
+    url = 'https://www.toutiao.com/i6873664794990379528/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("多模态数据中的非负矩阵分解用于分割和标签预测")
+    generatePost("遥感中多模态和数据融合的挑战和机遇")
