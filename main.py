@@ -91,7 +91,7 @@ class postMaker(object):
             pic_w, pic_h = postPic.size
 
             # 将封面图粘贴到背景图的指定位置，第二个参数为坐标
-            backImg.paste(postPic, ((bg_w-pic_w)//2, int((bg_h-pic_h)/5.5)))
+            backImg.paste(postPic, ((bg_w-pic_w)//2, int((bg_h-pic_h)/4)))
 
             draw = ImageDraw.Draw(backImg)
             draw.ink = textColor.get(
@@ -147,7 +147,7 @@ def get_title(url):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6875989285913231885/'
+    url = 'https://www.toutiao.com/i6875990682943619595/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("用于分类和识别的多模态高维数据融合")
+    generatePost("基于互信息的多模态数据融合")
