@@ -147,7 +147,7 @@ def get_title(url):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6876081350676316680/'
+    url = 'https://www.toutiao.com/i6877429121027310092/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("基于深度对抗学习的多模态缺失数据补全")
+    generatePost("CONAN：用于罕见疾病检测的互补模式扩增")
