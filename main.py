@@ -147,7 +147,7 @@ def get_title(url):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6877429121027310092/'
+    url = 'https://www.toutiao.com/i6877431920892838412/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("CONAN：用于罕见疾病检测的互补模式扩增")
+    generatePost("构建多个扩增任务：使用 K 均值特征改进神经图像分类")
