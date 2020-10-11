@@ -91,7 +91,7 @@ class postMaker(object):
             pic_w, pic_h = postPic.size
 
             # 将封面图粘贴到背景图的指定位置，第二个参数为坐标
-            backImg.paste(postPic, ((bg_w-pic_w)//2, int((bg_h-pic_h)/5)))
+            backImg.paste(postPic, ((bg_w-pic_w)//2, int((bg_h-pic_h)/4)))
 
             draw = ImageDraw.Draw(backImg)
             draw.ink = textColor.get(
@@ -147,7 +147,14 @@ def get_title(url):
 
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     url = 'https://www.toutiao.com/i6881145777813455371/'
     generateQRCode(url)
     # generatePost(get_title(url))
     generatePost("面向销售自动化的基于数据扩增和真实图像合成的鲁棒多目标检测")
+=======
+    url = 'https://www.toutiao.com/i6880049344142115335/'
+    generateQRCode(url)
+    # generatePost(get_title(url))
+    generatePost("数据不足也会摇摇欲坠！学习如何使用较小的数据量进行扩增")
+>>>>>>> f80f48a06e48a2100f4be5d9a75990fe32dcc9c8
