@@ -117,3 +117,4 @@ dmypy.json
 .vscode
 
 .DS_Store
+output/.DS_Store
