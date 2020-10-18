@@ -147,7 +147,7 @@ def get_title(url):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6883806549425422859/'
+    url = 'https://www.toutiao.com/i6883807393080148492/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("利用基于几何关系的扩增技术从OCT图像进行病理视网膜区域分割")
+    generatePost("点云分类的自动放大框架 PointAugment")
