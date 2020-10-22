@@ -91,7 +91,7 @@ class postMaker(object):
             pic_w, pic_h = postPic.size
 
             # 将封面图粘贴到背景图的指定位置，第二个参数为坐标
-            backImg.paste(postPic, ((bg_w-pic_w)//2, int((bg_h-pic_h)/5)))
+            backImg.paste(postPic, ((bg_w-pic_w)//2, int((bg_h-pic_h)/4)))
 
             draw = ImageDraw.Draw(backImg)
             draw.ink = textColor.get(
@@ -147,7 +147,7 @@ def get_title(url):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6883814083498508814/'
+    url = 'https://www.toutiao.com/i6883815158263742984/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("反思图像超分辨率的数据增强：综合分析和新战略")
+    generatePost("无监督领域自适应的对抗特征增强方法")
