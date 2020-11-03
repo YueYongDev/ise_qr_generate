@@ -147,7 +147,7 @@ def get_title(url):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6890181299013681675/'
+    url = 'https://www.toutiao.com/i6890702092235866636/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("基于UML-RT和Papyrus-RT的系统建模与代码生成")
+    generatePost("从神经机器翻译器到引导移动GUI的实现")
