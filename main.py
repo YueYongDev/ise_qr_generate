@@ -135,19 +135,17 @@ def generatePost(title):
     print('ok')
 
 #   获取标题
-
-
-def get_title(url):
-    res = requests.get(url)
-    res.encoding = 'utf-8'  #
-    soup = BeautifulSoup(res.text, 'lxml')
-    title = soup.title.text
-    print(title)
-    return title
+# def get_title(url):
+#     res = requests.get(url)
+#     res.encoding = 'utf-8'  #
+#     soup = BeautifulSoup(res.text, 'lxml')
+#     title = soup.title.text
+#     print(title)
+#     return title
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6891494364141322764/'
+    url = 'https://www.toutiao.com/i6891972829256876556/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("以字段覆盖标准指导的高效测试生成技术")
+    generatePost("基于多样性的 Web 测试生成")
