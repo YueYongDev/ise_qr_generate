@@ -145,7 +145,7 @@ def generatePost(title):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6893763550142169611/'
+    url = 'https://www.toutiao.com/i6894542386467176967/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("Glass-Box 程序合成：一种机器学习方法")
+    generatePost("析取程序合成：一种通过示例编程的健壮方法")
