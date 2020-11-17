@@ -145,7 +145,7 @@ def generatePost(title):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6894555198442701319/'
+    url = 'https://www.toutiao.com/i6895555601401643531/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("使用冲突驱动学习的程序合成")
+    generatePost("代数库规范下的程序合成")
