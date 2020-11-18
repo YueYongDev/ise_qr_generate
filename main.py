@@ -91,7 +91,7 @@ class postMaker(object):
             pic_w, pic_h = postPic.size
 
             # 将封面图粘贴到背景图的指定位置，第二个参数为坐标
-            backImg.paste(postPic, ((bg_w-pic_w)//2, int((bg_h-pic_h)/4)))
+            backImg.paste(postPic, ((bg_w-pic_w)//2, int((bg_h-pic_h)/5)))
 
             draw = ImageDraw.Draw(backImg)
             draw.ink = textColor.get(
@@ -134,18 +134,9 @@ def generatePost(title):
         textColor={'R': 0, 'G': 0, 'B': 0})
     print('ok')
 
-#   获取标题
-# def get_title(url):
-#     res = requests.get(url)
-#     res.encoding = 'utf-8'  #
-#     soup = BeautifulSoup(res.text, 'lxml')
-#     title = soup.title.text
-#     print(title)
-#     return title
-
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6895555601401643531/'
+    url = 'https://www.toutiao.com/i6895557578017899016/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("代数库规范下的程序合成")
+    generatePost("对已学习的代码习惯用语的程序合成和语义解析")
