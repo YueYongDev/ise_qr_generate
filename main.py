@@ -91,7 +91,7 @@ class postMaker(object):
             pic_w, pic_h = postPic.size
 
             # 将封面图粘贴到背景图的指定位置，第二个参数为坐标
-            backImg.paste(postPic, ((bg_w-pic_w)//2, int((bg_h-pic_h)/5)))
+            backImg.paste(postPic, ((bg_w-pic_w)//2, int((bg_h-pic_h)/4)))
 
             draw = ImageDraw.Draw(backImg)
             draw.ink = textColor.get(
@@ -136,7 +136,7 @@ def generatePost(title):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6896001854354752003/'
+    url = 'https://www.toutiao.com/i6896002372548592135/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("通过注意机制和程序切片提高神经程序合成的精度")
+    generatePost("应用程序合成生成交换机代码")
