@@ -136,7 +136,7 @@ def generatePost(title):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6896002372548592135/'
+    url = 'https://www.toutiao.com/i6896002939739963912/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("应用程序合成生成交换机代码")
+    generatePost("通过类型指导抽象细化的程序合成")
