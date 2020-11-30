@@ -91,7 +91,7 @@ class postMaker(object):
             pic_w, pic_h = postPic.size
 
             # 将封面图粘贴到背景图的指定位置，第二个参数为坐标
-            backImg.paste(postPic, ((bg_w-pic_w)//2, int((bg_h-pic_h)/4)))
+            backImg.paste(postPic, ((bg_w-pic_w)//2, int((bg_h-pic_h)/5)))
 
             draw = ImageDraw.Draw(backImg)
             draw.ink = textColor.get(
@@ -136,7 +136,7 @@ def generatePost(title):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6899458570316841475/'
+    url = 'https://www.toutiao.com/i6899458747731624459/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("使用精确条件合成进行程序修复")
+    generatePost("ARJA：基于多目标遗传编程的 Java 程序自动修复")
