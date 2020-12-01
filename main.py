@@ -90,8 +90,15 @@ class postMaker(object):
             bg_w, bg_h = backImg.size
             pic_w, pic_h = postPic.size
 
+            divisor = 0
+            if pic_h < 300:
+                divisor = 4
+            else:
+                divisor = 5
+            print(divisor)
             # 将封面图粘贴到背景图的指定位置，第二个参数为坐标
-            backImg.paste(postPic, ((bg_w-pic_w)//2, int((bg_h-pic_h)/5)))
+            backImg.paste(postPic, ((bg_w-pic_w)//2,
+                                    int((bg_h-pic_h)/divisor)))
 
             draw = ImageDraw.Draw(backImg)
             draw.ink = textColor.get(
@@ -136,7 +143,7 @@ def generatePost(title):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6899458747731624459/'
+    url = 'https://www.toutiao.com/i6899460583150699019/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("ARJA：基于多目标遗传编程的 Java 程序自动修复")
+    generatePost("iFixR：缺陷报告驱动程序修复")
