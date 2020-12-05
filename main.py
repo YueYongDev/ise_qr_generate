@@ -5,8 +5,6 @@ import PIL.Image as Image
 import PIL.ImageDraw as ImageDraw
 import PIL.ImageFont as ImageFont
 import qrcode
-import requests
-from bs4 import BeautifulSoup
 from PIL import Image as Image
 
 
@@ -91,11 +89,13 @@ class postMaker(object):
             pic_w, pic_h = postPic.size
 
             divisor = 0
-            if pic_h < 300:
+
+            if pic_h < 100:
+                divisor = 3.5
+            elif pic_h >= 100 and pic_h < 300:
                 divisor = 4
             else:
                 divisor = 5
-            print(divisor)
             # 将封面图粘贴到背景图的指定位置，第二个参数为坐标
             backImg.paste(postPic, ((bg_w-pic_w)//2,
                                     int((bg_h-pic_h)/divisor)))
@@ -143,7 +143,7 @@ def generatePost(title):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6901553732471751180/'
+    url = 'https://www.toutiao.com/i6901947218085872139/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("基于现有补丁和相似代码重塑程序修复技术")
+    generatePost("TBar:重新审视基于模版的程序自动修复技术")
