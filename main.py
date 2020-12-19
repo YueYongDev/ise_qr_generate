@@ -143,7 +143,7 @@ def generatePost(title):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6905614823087030792/'
+    url = 'https://www.toutiao.com/i6905616266623812099/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("合成噪声和自然噪声都可破坏神经机器翻译")
+    generatePost("DeepTest：深度神经网络驱动自动汽车的自动化测试")
