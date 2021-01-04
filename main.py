@@ -143,7 +143,7 @@ def generatePost(title):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6913112936580235780/'
+    url = 'https://www.toutiao.com/i6913114337892663819/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("重要驱动的深度学习系统测试")
+    generatePost("MODE:通过状态差分分析和输入选择自动调试神经网络模型")
