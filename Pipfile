@@ -1,7 +1,7 @@
 [[source]]
 name = "pypi"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-verify_ssl = true
+verify_ssl = false
 
 [dev-packages]
 pylint = "*"
@@ -12,7 +12,7 @@ pillow = "*"
 qrcode = "*"
 beautifulsoup4 = "*"
 html5lib = "*"
-lxml = "*"
+lxml = "4.6.2"
 pyexecjs = "*"
 
 [requires]
