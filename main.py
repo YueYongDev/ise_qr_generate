@@ -143,7 +143,7 @@ def generatePost(title):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6922772085500592652/'
+    url = 'https://www.toutiao.com/i6923356609829732876/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("ActionNet：基于视觉识别编程截屏视频中编程工作流动作")
+    generatePost("自动生成拉取请求描述")
