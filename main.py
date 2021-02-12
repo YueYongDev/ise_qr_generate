@@ -143,7 +143,7 @@ def generatePost(title):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6925772882547196428/'
+    url = 'https://www.toutiao.com/i6925774443830952460/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("iSENSE：完成感知众测管理")
+    generatePost("使用重复标记器和健全性检查器改进完工感知众测管理")
