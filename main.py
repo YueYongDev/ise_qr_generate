@@ -143,7 +143,7 @@ def generatePost(title):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6927831691444732420/'
+    url = 'https://www.toutiao.com/i6927568475917648388/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("众包测试：聚会何时结束？")
+    generatePost("利用群众的力量进行软件测试")
