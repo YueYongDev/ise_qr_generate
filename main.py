@@ -143,7 +143,7 @@ def generatePost(title):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6929809894413566468/'
+    url = 'https://www.toutiao.com/i6929810607344714247/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("基于工人行为的方法在 QoE 人群测试中检测低质量工人")
+    generatePost("众包工人素质和任务复杂性之间的权衡")
