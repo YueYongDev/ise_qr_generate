@@ -143,7 +143,7 @@ def generatePost(title):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6952689277641720323/'
+    url = 'https://www.toutiao.com/i6952691296808993284/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("使用黑盒生成对抗性文本序列来迷惑深度学习分类器")
+    generatePost("斯特拉轮廓图与深度学习在物理层中的信号识别")
