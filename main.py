@@ -143,7 +143,7 @@ def generatePost(title):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6957941913630556675/'
+    url = 'https://www.toutiao.com/i6957945183992349217/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("众包测试用例的质量评估")
+    generatePost("比较测试用例优先级的逻辑覆盖准则")
