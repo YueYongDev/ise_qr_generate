@@ -143,7 +143,7 @@ def generatePost(title):
 
 
 if __name__ == "__main__":
-    url = 'https://www.toutiao.com/i6963484794638336544/'
+    url = 'https://www.toutiao.com/i6964726144109134366/'
     generateQRCode(url)
     # generatePost(get_title(url))
-    generatePost("借助人类知识的GUI测试——随机测试与功能测试")    
+    generatePost("探索时间因素对 bug 报告优先级的影响")    
